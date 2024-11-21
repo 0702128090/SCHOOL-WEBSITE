@@ -1,0 +1,90 @@
+/* Type selector */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4CAF50; /* Green color */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    background: #333; /* Dark background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* ID selector */
+#school-name {
+    font-size: 2.5em; /* Larger font size for the school name */
+}
+
+/* Class selector */
+.school-image {
+    width: 100%;
+    max-width: 600px; /* Responsive image */
+    height: auto;
+}
+
+.features-list {
+    list-style-type: square; /* Square bullets for the list */
+    margin: 10px 0;
+}
+
+/* Attribute selector */
+a[href="registration.html"] {
+    color: #4CAF50; /* Green color for the link */
+    text-decoration: none;
+}
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders */
+}
+
+.stats-table th, .stats-table td {
+    border: 1px solid #ddd; /* Light border */
+    padding: 8px; /* Padding for table cells */
+}
+
+.stats-table th {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text */
+}
+
+/* Registration form styles */
+.registration-form {
+    max-width: 500px; /* Max width for form */
+    margin: 20px auto; /* Center the form */
+    padding: 20px; /* Padding inside form */
+    border: 1px solid #ddd; /* Light border around form */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.registration-form label {
+    display: block; /* Block display for labels */
+    margin-top: 10px; /* Spacing above labels */
+}
+
+.registration-form input, .registration-form select {
+    width: 100%; /* Full width for inputs */
+    padding: 8px; /* Padding inside inputs */
+    margin-top: 5px; /* Spacing above inputs */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .school-image {
+        width: 100%; /* Full width on mobile */
+    }
+
+    .registration-form {
+        padding: 10px; /* Less padding on mobile */
+    }
+}
